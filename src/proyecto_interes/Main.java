@@ -1,15 +1,29 @@
-/*****************************************************************************
+
+
+package proyecto_interes;
+/**
  * Visualizar el interes simple que produce un capital (capital)
  * a un determinado tipo de interes (redito) anual expresado en tanto por ciento
  * y considerando el tiempo (tiempo) en años.
  * La formula es: interes= (capital*redito*tiempo)/100
- * autor: profesor
- ******************************************************************************/
-
-package proyecto_interes;
+ * @author: profesor
+ */
 import java.util.*;
+
+/**
+ * Visualizar el interes simple que produce un capital (capital)
+ * a un determinado tipo de interes (redito) anual expresado en tanto por ciento
+ * y considerando el tiempo (tiempo) en años.
+ * La formula es: interes= (capital*redito*tiempo)/100
+ * @author: profesor
+ */
 public class Main {
-    public static void main(String[] args) {
+
+  /**
+   * Pide valores para capital, rédito e tempo, e calcula o interés.
+   * 
+   */
+  public static void main(String[] args) {
         System.out.println("CÁLCULO DEL INTERÉS SIMPLE");
         Scanner teclado = new Scanner(System.in);
         boolean error;
